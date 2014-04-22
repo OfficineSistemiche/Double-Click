@@ -12,3 +12,5 @@ before running on linux:
 
     allow processing to read the serial data from arduino copy and paste to terminal ---> sudo ln -s /dev/ttyACM0 /dev/ttyS42
 
+    modifica il file con ID del device xinput list sh ~/.mousespeed */
+
