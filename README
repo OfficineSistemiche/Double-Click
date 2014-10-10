@@ -1,0 +1,14 @@
+Double-Click
+
+Officine Sistemiche 2014 www.officinesistemiche.it
+
+the gimmick to draw with Processing, Arduino and (of course) a pen. Semi-automatic drawer. Two mice to print images from monitor
+
+assembled and hacked from: http://creativecomputing.cc/p5libs/procontroll/index.htm http://foxssic.wordpress.com/2007/02/06/dual-mouse-control-in-processing/ Sine Wave Signal - by Damien Di Fede.
+
+before running on linux:
+
+    allow procontroll library to read the mice input copy and paste to terminal ---> sudo chmod go=u /dev/input/event*
+
+    allow processing to read the serial data from arduino copy and paste to terminal ---> sudo ln -s /dev/ttyACM0 /dev/ttyS42
+
